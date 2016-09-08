@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>姚炎琳</title>
+	<link rel="stylesheet" href="css/myworks.css" />
+	<script src="js/common.js"></script>
+	<script src="js/move.js"></script>
+	<script src="js/myworks.js"></script>
+</head>
+<body>
+	<header>
+		<ul id="clock">
+			<li><img src="img/num.png" /></li>
+			<li><img src="img/num.png" /></li>
+		    <li class="dotdot"></li>
+			<li><img src="img/num.png" /></li>
+			<li><img src="img/num.png" /></li>
+		    <li class="dotdot"></li>
+			<li><img src="img/num.png" /></li>
+			<li><img src="img/num.png" /></li>
+		</ul>
+		<div class="nav">
+			<ul>
+				<li><a href="index.html"></a></li>
+				<li><a href="index.html"></a></li>
+				<li><a href="index.html"></a></li>
+			</ul>
+		</div>
+		<div class="point">Javascript</div>
+		<div class="hd-bot"></div>
+	</header>
+	<div class="content">
+		<div class="container page cn">
+			<!-- Mac Dock -->
+			<section class="main-tit">
+				<h2 class="subtitle">原生Javascript应用</h2>
+				<h2 class="subtitle"><a href="index.html">首页</a></h2>
+				<h2 class="subtitle"><a href="credit.html">联系我</a></h2>
+				<h2 class="subtitle"><a href="myworks-css.html">CSS & HTML作品页</a></h2>
+				<h2 class="subtitle"><a href="myworks-h5.html">CSS3 & HTML5作品页</a></h2>
+				<div class="pageTitle">Mac Dock</div>
+			</section>
+			<section id="dock">
+				<div id="dock-box">
+					<img src="img/dock/1.png" width="64" />
+					<img src="img/dock/2.png" width="64" />
+					<img src="img/dock/3.png" width="64" />
+					<img src="img/dock/4.png" width="64" />
+					<img src="img/dock/5.png" width="64" />
+				</div>
+			</section>
+			<section class="main-tit">
+				<div class="pageTitle">无缝滚动</div>
+			</section>
+			<!-- 无缝滚动 -->
+			<section id="scroll1">
+				<ul>
+			    	<li><img src="img/z1.jpg" /></li>
+			    	<li><img src="img/z2.jpg" /></li>
+			    	<li><img src="img/z3.jpg" /></li>
+			    	<li><img src="img/z4.jpg" /></li>
+			    </ul>
+			    <ol>
+			    	<li class="on">0</li>
+			    	<li>1</li>
+			    	<li>2</li>
+			    	<li>3</li>
+			    	<li>4</li>
+			    </ol>
+				<a href="javascript:;" class="prev"><</a>
+			    <a href="javascript:;" class="next">></a>
+			</section>
+			<!-- 照片墙 -->
+			<section class="main-tit">
+				<div class="pageTitle">照片墙</div>
+			</section>
+			<section id="picwall">
+				<button class="c-button" type="button">
+				  <div class="c-ripple js-ripple">
+				    <span class="c-ripple__circle"></span>
+				  </div>
+				  change
+				</button>
+				<ul>
+					<li><img src="img/cat/1.jpg" /></li>
+					<li><img src="img/cat/2.jpg" /></li>
+					<li><img src="img/cat/3.jpg" /></li>
+					<li><img src="img/cat/4.jpg" /></li>
+					<li><img src="img/cat/5.jpg" /></li>
+					<li><img src="img/cat/6.jpg" /></li>
+					<li><img src="img/cat/7.jpg" /></li>
+					<li><img src="img/cat/8.jpg" /></li>
+					<li><img src="img/cat/9.jpg" /></li>
+				</ul>
+			</section>
+			<!-- 分块运动 -->
+			<section class="main-tit">
+				<div class="pageTitle">分块运动</div>
+			</section>
+			<section class="splitblock">
+				<button class="c-button" type="button" id="btn1">
+				  <div class="c-ripple js-ripple">
+				    <span class="c-ripple__circle"></span>
+				  </div>
+				  切换
+				</button>
+				<div class="box">
+				</div>
+			</section>
+			<!-- show-bar -->
+			<section class="main-tit">
+				<div class="pageTitle">左右拖动切换</div>
+			</section>
+			<section id="showbar">
+				<ul>
+			    	<li><img src="img/showbar/1.jpg" /></li>
+			    	<li><img src="img/showbar/2.jpg" /></li>
+			    	<li><img src="img/showbar/3.jpg" /></li>
+			    	<li><img src="img/showbar/4.jpg" /></li>
+			    	<li><img src="img/showbar/5.jpg" /></li>
+			    	<li><img src="img/showbar/6.jpg" /></li>
+			    	<li><img src="img/showbar/7.jpg" /></li>
+			    	<li><img src="img/showbar/8.jpg" /></li>
+			    </ul>   
+			</section>
+			<!-- 手风琴 -->
+			<section class="main-tit">
+				<div class="pageTitle">手风琴效果</div>
+			</section>
+			<section id="accordion">
+				<ul>
+			    	<li><img src="img/accordion/1.jpg" width="600"></li>
+			        <li><img src="img/accordion/2.jpg" width="600"></li>
+			        <li><img src="img/accordion/3.jpg" width="600"></li>
+			        <li><img src="img/accordion/4.jpg" width="600"></li>
+			        <li><img src="img/accordion/5.jpg" width="600"></li>
+			    </ul>
+			</section>
+			<section class="main-tit">
+				<h2 class="subtitle">关于Ajax交互和Jsonp跨域交互</h2>
+				<blockquote><p>由于本人没有租用正规网络服务器，没有数据库可用，所以导致自己做的一些交互的项目和小例子没有办法上传到personal website里，下面仅列出自己封装的ajax和jsonp函数。</p></blockquote>
+				<div class="pageTitle">Ajax</div>
+				<div class="highlight">
+					<pre>
+						<code class="language-js" data-lang="js">
+function json2url(json){
+	var arr = [];
+	json.t = Math.random();
+	for(var name in json){
+		arr.push(name+'='+json[name]);
+	}
+	return arr.join('&');
+}
+
+function ajax(json){
+	json = json || {};
+	if(!json.url)return;
+	json.type = json.type || 'get';
+	json.data = json.data || {};
+	if(window.XMLHttpRequest){
+		var oAjax = new XMLHttpRequest();
+	}else{
+		var oAjax = new ActiveXObject('Microsoft.XMLHTTP');
+	}
+	switch(json.type.toLowerCase()){
+		case 'get':
+			oAjax.open('GET',json.url+'?'+json2url(json.data),true);
+			oAjax.send();
+			break;
+		case 'post';
+			oAjax.open('POST',json.url,true);
+			oAjax.setRequestHeader('Content-type','application/x-www-form-urlencoded');
+			oAjax.send(json.data);
+			break;
+	}
+	oAjax.onreadystatechange = function(){
+		if(oAjax.readyState==4){
+			if(oAjax.status>=200&&oAjax.status<300||oAjax.status==304){
+				json.fnSucc&json.fnSucc(oAjax.responseText);
+			}else{
+				json.fnFail&&json.fnFail(oAjax.status);
+			}
+		}
+	};
+}
+						</code>
+					</pre>
+				</div>
+				<div class="pageTitle">JSONP</div>
+				<div class="highlight">
+					<pre>
+						<code class="language-js" data-lang="js">
+function jsonp(json){
+	json = json || {};
+	if(!json.url)return;
+	json.data = json.data || {};
+	json.cbName = json.cbName || 'cb';
+	json.data[json.cbName] = 'show'+Math.random();
+	json.data[json.cbName] = json.data[json.cbName].replace(/\./g,'');
+	var arr = [];
+	for(var name in json.data){
+		arr.push(name+'='+encodeURIComponent(json.data[name]));
+	}
+	var str = arr.join('&');
+	var oS = document.createElement('script');
+	var oH = document.getElementsByTagName('head')[0];
+	oS.src = json.url+'?'+str;
+	oH.appendChild(oS);
+	window[json.data[json.cbName]] = function(result){
+		json.success&&json.success(result);
+		oJ.removeChild(oS);
+		window[json.data[json.cbName]] = null;
+	};
+}
+						</code>
+					</pre>
+				</div>
+			</section>
+		</div>
+	</div>
+	<div id="footer-nav">
+        | <a href="#" class="toptop">Top</a> | 
+        <a href="credit.html">About Me</a> |
+        <a href="yanlinyao1019@163.com" target="_blank">Email</a> |
+        <a href="myworks-js.html">JS</a> |
+        <a href="myworks-css.html">CSS & HTML</a> | 
+        <a href="myworks-h5.html">CSS3 & HTML5</a> |
+    </div>
+	<footer>
+		<div id="footerImg"></div>
+	</footer>
+	<div id="scrollTop" >
+		<span class="level2"></span>
+		<span class="level3"></span>
+		<span class="level4"></span>
+	</div>
+</body>
+</html>
